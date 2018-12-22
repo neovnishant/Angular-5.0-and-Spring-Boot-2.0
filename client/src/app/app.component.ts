@@ -3,6 +3,7 @@ import { CarService } from './shared/car/car.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CbseService } from './shared/cbse/cbse.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { BrowserModule } from '@angular/platform-browser';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [CarService],
+  providers: [CarService,CbseService],
   bootstrap: [AppComponent]
 })
 

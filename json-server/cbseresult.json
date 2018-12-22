@@ -1,0 +1,94 @@
+{
+	"result" : [
+					{
+						"region" : "Guwahati",
+						"total_appeared" : "245275",
+						"total_passed" : "159429",
+						"total_failed" : "85846",
+						"percent_appeared" : "8%",
+						"percent_passed" : "65%",
+						"percent_failed" : "35%"
+					},
+					{
+						"region" : "Chandigarh",
+						"total_appeared" : "289762",
+						"total_passed" : "273362",
+						"total_failed" : "16400",
+						"percent_appeared" : "10%",
+						"percent_passed" : "94.34%",
+						"percent_failed" : "5.56%"
+					},
+					{
+						"region" : "Bhubaneswar",
+						"total_appeared" : "386761",
+						"total_passed" : "356401",
+						"total_failed" : "30360",
+						"percent_appeared" : "13%",
+						"percent_passed" : "92.15%",
+						"percent_failed" : "7.75%"
+					},
+					{
+						"region" : "Chennai",
+						"total_appeared" : "148921",
+						"total_passed" : "148355",
+						"total_failed" : "566",
+						"percent_appeared" : "5%",
+						"percent_passed" : "99.62%",
+						"percent_failed" : "0.38%"
+					},
+					{
+						"region" : "Trivandrum",
+						"total_appeared" : "218723",
+						"total_passed" : "218394",
+						"total_failed" : "328",
+						"percent_appeared" : "8%",
+						"percent_passed" : "99.85%",
+						"percent_failed" : "0.15%"
+					},
+					{
+						"region" : "Ajmer",
+						"total_appeared" : "326110",
+						"total_passed" : "304260",
+						"total_failed" : "21849",
+						"percent_appeared" : "12%",
+						"percent_passed" : "93.30%",
+						"percent_failed" : "6.70%"
+					},
+					{
+						"region" : "Dehradun",
+						"total_appeared" : "315312",
+						"total_passed" : "306703",
+						"total_failed" : "8608",
+						"percent_appeared" : "12%",
+						"percent_passed" : "97.27%",
+						"percent_failed" : "2.73%"
+					},
+					{
+						"region" : "Allahabad",
+						"total_appeared" : "334201",
+						"total_passed" : "328285",
+						"total_failed" : "5915",
+						"percent_appeared" : "11%",
+						"percent_passed" : "98.23%",
+						"percent_failed" : "1.77%"
+					},
+					{
+						"region" : "Patna",
+						"total_appeared" : "257542",
+						"total_passed" : "245952",
+						"total_failed" : "11589",
+						"percent_appeared" : "9%",
+						"percent_passed" : "95.50%",
+						"percent_failed" : "4.50%"
+					},
+					{
+						"region" : "Delhi",
+						"total_appeared" : "272310",
+						"total_passed" : "272309",
+						"total_failed" : "7809",
+						"percent_appeared" : "9%",
+						"percent_passed" : "78.09%",
+						"percent_failed" : "21.91%"
+					}
+				]
+}

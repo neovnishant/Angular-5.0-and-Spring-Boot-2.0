@@ -1,0 +1,41 @@
+<mat-card>
+  <mat-card-header>CBSE Xth Region-Wise Result 2018</mat-card-header>
+  <mat-card-content>
+
+<div>
+  <mat-table [dataSource]="dataSource">
+    <ng-container matColumnDef="region">
+      <mat-header-cell *matHeaderCellDef>Region</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.region}}</mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="total_appeared">
+      <mat-header-cell *matHeaderCellDef>Total Appeared</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.total_appeared}}</mat-cell>
+     </ng-container>
+     <ng-container matColumnDef="total_passed">
+      <mat-header-cell *matHeaderCellDef>Total Passed</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.total_passed}}</mat-cell>
+     </ng-container>
+     <ng-container matColumnDef="total_failed">
+      <mat-header-cell *matHeaderCellDef>Total Failed</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.total_failed}}</mat-cell>
+     </ng-container>
+     <ng-container matColumnDef="percent_appeared">
+      <mat-header-cell *matHeaderCellDef>Percent Appeared</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.percent_appeared}}</mat-cell>
+     </ng-container>
+     <ng-container matColumnDef="percent_passed">
+      <mat-header-cell *matHeaderCellDef>Percent Passed</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.percent_passed}}</mat-cell>
+     </ng-container>
+     <ng-container matColumnDef="percent_failed">
+      <mat-header-cell *matHeaderCellDef>Percent Failed</mat-header-cell>
+      <mat-cell *matCellDef="let result">{{result.percent_failed}}</mat-cell>
+     </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>
+
+</mat-card-content>
+</mat-card>
