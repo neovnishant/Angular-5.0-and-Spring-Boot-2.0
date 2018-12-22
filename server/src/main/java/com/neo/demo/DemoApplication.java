@@ -25,7 +25,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-   /* @Bean
+    @Bean
     ApplicationRunner init(CarRepository repository) {
         return args -> {
             Stream.of("Ferrari", "Jaguar", "Porsche", "Lamborghini", "Bugatti",
@@ -36,14 +36,14 @@ public class DemoApplication {
             });
             repository.findAll().forEach(System.out::println);
         };
-    }*/
+    }
     
     @Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
 		return builder.build();
 	}
     
-    @Bean
+    /*@Bean
     ApplicationRunner init(ResultRepository repository,RestTemplate restTemplate) {
         return args -> {
         	
@@ -54,29 +54,9 @@ public class DemoApplication {
         	repository.findAll().forEach(System.out::println);
            
         };
-    }
+    }*/
     
-    /*@Bean
-	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
-	}
     
-	@Bean
-	public CommandLineRunner run(RestTemplate restTemplate) throws Exception{
-		return args -> {
-
-			 
-			Result[] results = restTemplate.getForObject("http://localhost:3000/result", Result[].class);
-
-
-			// Results on Console
-			log.info("Region :" + (results[0].getRegion()));
-
-			log.info("-------------------------------------------------");
-		
-			
-		};
-	}*/
     
     
     
